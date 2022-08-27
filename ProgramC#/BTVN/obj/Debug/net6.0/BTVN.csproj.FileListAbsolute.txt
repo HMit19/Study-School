@@ -1,0 +1,15 @@
+H:\Program\CP\BTVN\bin\Debug\net6.0\BTVN.exe
+H:\Program\CP\BTVN\bin\Debug\net6.0\BTVN.deps.json
+H:\Program\CP\BTVN\bin\Debug\net6.0\BTVN.runtimeconfig.json
+H:\Program\CP\BTVN\bin\Debug\net6.0\BTVN.dll
+H:\Program\CP\BTVN\bin\Debug\net6.0\BTVN.pdb
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.csproj.AssemblyReference.cache
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.GeneratedMSBuildEditorConfig.editorconfig
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.AssemblyInfoInputs.cache
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.AssemblyInfo.cs
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.csproj.CoreCompileInputs.cache
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.dll
+H:\Program\CP\BTVN\obj\Debug\net6.0\refint\BTVN.dll
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.pdb
+H:\Program\CP\BTVN\obj\Debug\net6.0\BTVN.genruntimeconfig.cache
+H:\Program\CP\BTVN\obj\Debug\net6.0\ref\BTVN.dll

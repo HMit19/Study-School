@@ -1,0 +1,17 @@
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.exe
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.deps.json
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.runtimeconfig.json
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.dll
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.pdb
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.csproj.AssemblyReference.cache
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.Form1.resources
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.csproj.GenerateResource.cache
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.AssemblyInfoInputs.cache
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.AssemblyInfo.cs
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.csproj.CoreCompileInputs.cache
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.dll
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\refint\pratice.dll
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.pdb
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.genruntimeconfig.cache
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\ref\pratice.dll

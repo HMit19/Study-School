@@ -1,0 +1,17 @@
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.csproj.AssemblyReference.cache
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.Form1.resources
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.csproj.GenerateResource.cache
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.AssemblyInfoInputs.cache
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.AssemblyInfo.cs
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.csproj.CoreCompileInputs.cache
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\bin\Debug\net6.0-windows\BTVN.exe
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\bin\Debug\net6.0-windows\BTVN.deps.json
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\bin\Debug\net6.0-windows\BTVN.runtimeconfig.json
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\bin\Debug\net6.0-windows\BTVN.dll
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\bin\Debug\net6.0-windows\BTVN.pdb
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.dll
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\refint\BTVN.dll
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.pdb
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\BTVN.genruntimeconfig.cache
+E:\StudySchool\ProgramC#\Baitap\BTVN\BTVN\obj\Debug\net6.0-windows\ref\BTVN.dll

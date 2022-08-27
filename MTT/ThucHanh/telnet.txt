@@ -1,0 +1,5 @@
+GET /index.html HTTP/1.0
+
+telnet 192.168.22.189 80
+
+	

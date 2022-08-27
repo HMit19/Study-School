@@ -1,0 +1,17 @@
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.csproj.AssemblyReference.cache
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.Form1.resources
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.csproj.GenerateResource.cache
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.AssemblyInfoInputs.cache
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.AssemblyInfo.cs
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.csproj.CoreCompileInputs.cache
+E:\StudySchool\ProgramC#\Baitap\Example\Example\bin\Debug\net6.0-windows\Example.exe
+E:\StudySchool\ProgramC#\Baitap\Example\Example\bin\Debug\net6.0-windows\Example.deps.json
+E:\StudySchool\ProgramC#\Baitap\Example\Example\bin\Debug\net6.0-windows\Example.runtimeconfig.json
+E:\StudySchool\ProgramC#\Baitap\Example\Example\bin\Debug\net6.0-windows\Example.dll
+E:\StudySchool\ProgramC#\Baitap\Example\Example\bin\Debug\net6.0-windows\Example.pdb
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.dll
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\refint\Example.dll
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.pdb
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\Example.genruntimeconfig.cache
+E:\StudySchool\ProgramC#\Baitap\Example\Example\obj\Debug\net6.0-windows\ref\Example.dll
