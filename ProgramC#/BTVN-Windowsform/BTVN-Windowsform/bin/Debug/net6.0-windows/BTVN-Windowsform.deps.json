@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BTVN-Windowsform/1.0.0": {
+        "runtime": {
+          "BTVN-Windowsform.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BTVN-Windowsform/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

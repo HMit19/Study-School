@@ -2,4 +2,27 @@ GET /index.html HTTP/1.0
 
 telnet 192.168.22.189 80
 
+
+GET /hoa.jpg HTTP/1.1
+
+
+
+
+
+- Để nhận thu
+	telnet 192.168.22.254 110
+	user svindex
+	pass 123
+	list: Để lấy thư
+
+
+- Để gửi thư:
+	telnet 192.168.22.254 25
+	helo
+	mail from:sv(index)
+	rcpt to:mail ng nhan
+	data
+	.enter để kết thúc
+
+	
 	
