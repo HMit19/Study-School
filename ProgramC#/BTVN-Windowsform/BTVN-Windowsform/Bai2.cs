@@ -29,5 +29,10 @@ namespace BTVN_Windowsform
                 txtb.Focus();
             }
         }
+
+        private void Bai2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -35,3 +35,9 @@ H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-wind
 H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN-Windowsform.genruntimeconfig.cache
 H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\ref\BTVN-Windowsform.dll
 H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai3.resources
+E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai3.resources
+E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai4.resources
+E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai5.resources
+E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai6.resources
+E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai7.resources
+E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai8.resources

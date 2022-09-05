@@ -45,7 +45,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(41, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 20);
+            this.label1.Size = new System.Drawing.Size(78, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhập n:";
             // 
@@ -54,7 +54,7 @@
             this.lbArray.AutoSize = true;
             this.lbArray.Location = new System.Drawing.Point(41, 93);
             this.lbArray.Name = "lbArray";
-            this.lbArray.Size = new System.Drawing.Size(61, 20);
+            this.lbArray.Size = new System.Drawing.Size(77, 25);
             this.lbArray.TabIndex = 1;
             this.lbArray.Text = "Dãy số: ";
             this.lbArray.Click += new System.EventHandler(this.label2_Click);
@@ -64,7 +64,7 @@
             this.lbSum.AutoSize = true;
             this.lbSum.Location = new System.Drawing.Point(41, 144);
             this.lbSum.Name = "lbSum";
-            this.lbSum.Size = new System.Drawing.Size(109, 20);
+            this.lbSum.Size = new System.Drawing.Size(138, 25);
             this.lbSum.TabIndex = 2;
             this.lbSum.Text = "Tổng dãy số là:";
             this.lbSum.Click += new System.EventHandler(this.lbSum_Click);
@@ -74,7 +74,7 @@
             this.lbArraySort.AutoSize = true;
             this.lbArraySort.Location = new System.Drawing.Point(41, 193);
             this.lbArraySort.Name = "lbArraySort";
-            this.lbArraySort.Size = new System.Drawing.Size(195, 20);
+            this.lbArraySort.Size = new System.Drawing.Size(245, 25);
             this.lbArraySort.TabIndex = 3;
             this.lbArraySort.Text = "Dãy số sắp xếp giảm dần là:";
             this.lbArraySort.Click += new System.EventHandler(this.lbArraySort_Click);
@@ -84,7 +84,7 @@
             this.btnInput.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnInput.Location = new System.Drawing.Point(55, 248);
             this.btnInput.Name = "btnInput";
-            this.btnInput.Size = new System.Drawing.Size(80, 26);
+            this.btnInput.Size = new System.Drawing.Size(80, 33);
             this.btnInput.TabIndex = 2;
             this.btnInput.Text = "Nhập";
             this.btnInput.UseVisualStyleBackColor = false;
@@ -95,7 +95,7 @@
             this.btnSum.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnSum.Location = new System.Drawing.Point(162, 247);
             this.btnSum.Name = "btnSum";
-            this.btnSum.Size = new System.Drawing.Size(84, 28);
+            this.btnSum.Size = new System.Drawing.Size(84, 34);
             this.btnSum.TabIndex = 3;
             this.btnSum.Text = "Tính tổng";
             this.btnSum.UseVisualStyleBackColor = false;
@@ -106,7 +106,7 @@
             this.btnSort.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnSort.Location = new System.Drawing.Point(273, 246);
             this.btnSort.Name = "btnSort";
-            this.btnSort.Size = new System.Drawing.Size(87, 28);
+            this.btnSort.Size = new System.Drawing.Size(87, 35);
             this.btnSort.TabIndex = 4;
             this.btnSort.Text = "Sắp xếp";
             this.btnSort.UseVisualStyleBackColor = false;
@@ -117,7 +117,7 @@
             this.btnAgaint.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnAgaint.Location = new System.Drawing.Point(386, 246);
             this.btnAgaint.Name = "btnAgaint";
-            this.btnAgaint.Size = new System.Drawing.Size(83, 28);
+            this.btnAgaint.Size = new System.Drawing.Size(83, 35);
             this.btnAgaint.TabIndex = 5;
             this.btnAgaint.Text = "Làm lại";
             this.btnAgaint.UseVisualStyleBackColor = false;
@@ -128,7 +128,7 @@
             this.btnExit.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnExit.Location = new System.Drawing.Point(501, 248);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 27);
+            this.btnExit.Size = new System.Drawing.Size(75, 33);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -138,13 +138,13 @@
             // 
             this.txtSize.Location = new System.Drawing.Point(137, 37);
             this.txtSize.Name = "txtSize";
-            this.txtSize.Size = new System.Drawing.Size(210, 27);
+            this.txtSize.Size = new System.Drawing.Size(210, 32);
             this.txtSize.TabIndex = 1;
             this.txtSize.TextChanged += new System.EventHandler(this.txtSize_TextChanged);
             // 
             // Bai3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GreenYellow;
             this.ClientSize = new System.Drawing.Size(624, 293);
@@ -161,7 +161,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Bai3";
-            this.Text = "Bai3";
+            this.Text = "Tính toán trên dãy số";
             this.ResumeLayout(false);
             this.PerformLayout();
 
