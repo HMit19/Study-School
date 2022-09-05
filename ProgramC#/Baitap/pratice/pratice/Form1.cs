@@ -33,6 +33,7 @@ namespace pratice
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -78,10 +79,7 @@ namespace pratice
 
         private void button4_Click(object sender, EventArgs e)
         {
-            txtSize.Text = "";
-            lb1.Text = "Array: ";
-            lb2.Text = "Sum array: ";
-            lb3.Text = "Sort array: ";
+               
         }
 
         private void button5_Click(object sender, EventArgs e)

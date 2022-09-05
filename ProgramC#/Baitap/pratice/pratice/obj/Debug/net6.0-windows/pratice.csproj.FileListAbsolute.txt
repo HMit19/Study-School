@@ -15,6 +15,7 @@ E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\refint\
 E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.pdb
 E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.genruntimeconfig.cache
 E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\ref\pratice.dll
+<<<<<<< HEAD
 H:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.exe
 H:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.deps.json
 H:\StudySchool\ProgramC#\Baitap\pratice\pratice\bin\Debug\net6.0-windows\pratice.runtimeconfig.json
@@ -32,3 +33,7 @@ H:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\refint\
 H:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.pdb
 H:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.genruntimeconfig.cache
 H:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\ref\pratice.dll
+=======
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.Form2.resources
+E:\StudySchool\ProgramC#\Baitap\pratice\pratice\obj\Debug\net6.0-windows\pratice.Properties.Resources.resources
+>>>>>>> df9c5f74b99e2cb01ee8f3e26b4419e643439da3
