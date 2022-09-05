@@ -47,5 +47,19 @@ namespace BTVN_Windowsform
                 MessageBox.Show("Bạn vừa chọn thêm món: " + clbFood.SelectedItem, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnDone_Click(object sender, EventArgs e)
+        {
+            string res = "Bạn đã chọn các món sau: ";
+            if (clbFood.SelectedItem != null)
+            {
+                foreach (string item in clbFood.CheckedItems)
+                {
+                    res += item + ", ";
+                }
+                res = res.Remove(res.Length - 2, 2);
+                MessageBox.Show(res);
+            }
+        }
     }
 }
