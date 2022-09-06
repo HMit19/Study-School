@@ -45,7 +45,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(41, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 25);
+            this.label1.Size = new System.Drawing.Size(60, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhập n:";
             // 
@@ -54,7 +54,7 @@
             this.lbArray.AutoSize = true;
             this.lbArray.Location = new System.Drawing.Point(41, 93);
             this.lbArray.Name = "lbArray";
-            this.lbArray.Size = new System.Drawing.Size(77, 25);
+            this.lbArray.Size = new System.Drawing.Size(61, 20);
             this.lbArray.TabIndex = 1;
             this.lbArray.Text = "Dãy số: ";
             this.lbArray.Click += new System.EventHandler(this.label2_Click);
@@ -64,7 +64,7 @@
             this.lbSum.AutoSize = true;
             this.lbSum.Location = new System.Drawing.Point(41, 144);
             this.lbSum.Name = "lbSum";
-            this.lbSum.Size = new System.Drawing.Size(138, 25);
+            this.lbSum.Size = new System.Drawing.Size(109, 20);
             this.lbSum.TabIndex = 2;
             this.lbSum.Text = "Tổng dãy số là:";
             this.lbSum.Click += new System.EventHandler(this.lbSum_Click);
@@ -74,7 +74,7 @@
             this.lbArraySort.AutoSize = true;
             this.lbArraySort.Location = new System.Drawing.Point(41, 193);
             this.lbArraySort.Name = "lbArraySort";
-            this.lbArraySort.Size = new System.Drawing.Size(245, 25);
+            this.lbArraySort.Size = new System.Drawing.Size(195, 20);
             this.lbArraySort.TabIndex = 3;
             this.lbArraySort.Text = "Dãy số sắp xếp giảm dần là:";
             this.lbArraySort.Click += new System.EventHandler(this.lbArraySort_Click);
@@ -104,6 +104,7 @@
             // btnSort
             // 
             this.btnSort.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnSort.Enabled = false;
             this.btnSort.Location = new System.Drawing.Point(273, 246);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(87, 35);
@@ -138,13 +139,13 @@
             // 
             this.txtSize.Location = new System.Drawing.Point(137, 37);
             this.txtSize.Name = "txtSize";
-            this.txtSize.Size = new System.Drawing.Size(210, 32);
+            this.txtSize.Size = new System.Drawing.Size(210, 27);
             this.txtSize.TabIndex = 1;
             this.txtSize.TextChanged += new System.EventHandler(this.txtSize_TextChanged);
             // 
             // Bai3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GreenYellow;
             this.ClientSize = new System.Drawing.Size(624, 293);

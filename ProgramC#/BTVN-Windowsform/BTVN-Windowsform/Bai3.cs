@@ -51,7 +51,14 @@ namespace BTVN_Windowsform
 
         private void btnInput_Click(object sender, EventArgs e)
         {
+            btnSort.Enabled = true;
             list.Clear();
+            if (txtSize.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập n!");
+                txtSize.Focus();
+                return;
+            }
             int n = Convert.ToInt32(txtSize.Text);
             Random rd = new Random();
 
@@ -99,6 +106,7 @@ namespace BTVN_Windowsform
 
         private void btnAgaint_Click(object sender, EventArgs e)
         {
+            btnSort.Enabled = false;
             lbArray.Text = "Dãy số: ";
             lbArraySort.Text = "Dãy số sắp xếp giảm dần là: ";
             lbSum.Text = "Tổng dãy số là: ";
@@ -108,7 +116,7 @@ namespace BTVN_Windowsform
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("Bạn có chắc chắn muộn thoát ?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Bạn có chắc chắn muộn thoát ?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 this.Close();
             }

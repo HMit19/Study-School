@@ -44,7 +44,7 @@
             this.label1.Location = new System.Drawing.Point(91, 72);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 25);
+            this.label1.Size = new System.Drawing.Size(90, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhập tháng:";
             // 
@@ -54,7 +54,7 @@
             this.label2.Location = new System.Drawing.Point(91, 165);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
+            this.label2.Size = new System.Drawing.Size(85, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nhập năm: ";
             // 
@@ -64,7 +64,7 @@
             this.lbResult.Location = new System.Drawing.Point(161, 253);
             this.lbResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbResult.Name = "lbResult";
-            this.lbResult.Size = new System.Drawing.Size(60, 25);
+            this.lbResult.Size = new System.Drawing.Size(49, 20);
             this.lbResult.TabIndex = 2;
             this.lbResult.Text = "Result";
             // 
@@ -106,7 +106,7 @@
             this.txtMonth.Location = new System.Drawing.Point(240, 72);
             this.txtMonth.Margin = new System.Windows.Forms.Padding(4);
             this.txtMonth.Name = "txtMonth";
-            this.txtMonth.Size = new System.Drawing.Size(210, 31);
+            this.txtMonth.Size = new System.Drawing.Size(210, 27);
             this.txtMonth.TabIndex = 1;
             this.txtMonth.TextChanged += new System.EventHandler(this.txtMonth_TextChanged);
             this.txtMonth.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMonth_KeyDown);
@@ -116,14 +116,14 @@
             this.txtYear.Location = new System.Drawing.Point(240, 158);
             this.txtYear.Margin = new System.Windows.Forms.Padding(4);
             this.txtYear.Name = "txtYear";
-            this.txtYear.Size = new System.Drawing.Size(210, 31);
+            this.txtYear.Size = new System.Drawing.Size(210, 27);
             this.txtYear.TabIndex = 2;
             this.txtYear.TextChanged += new System.EventHandler(this.txtYear_TextChanged);
             this.txtYear.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtYear_KeyPress);
             // 
             // Bai1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(572, 381);
