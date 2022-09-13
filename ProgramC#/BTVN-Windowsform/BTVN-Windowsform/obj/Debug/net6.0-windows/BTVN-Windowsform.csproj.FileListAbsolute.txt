@@ -53,6 +53,7 @@ H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-wind
 H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai13.resources
 H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai14.resources
 H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai15.resources
+<<<<<<< HEAD
 E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai10.resources
 E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai11.resources
 E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai12.resources
@@ -61,3 +62,6 @@ E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-wind
 E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai15.resources
 E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai16.resources
 E:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai9.resources
+=======
+H:\StudySchool\ProgramC#\BTVN-Windowsform\BTVN-Windowsform\obj\Debug\net6.0-windows\BTVN_Windowsform.Bai16.resources
+>>>>>>> 5e3306f9632a45f7cccba9efc2f757194a891b3b

@@ -1,0 +1,21 @@
+User control
+	- Là gì
+- Nó là một thể hiện của (System.Windows.Forms.ContainerControl)
+- Nó là một điều khiển trống và nó có thể chứa các điều khiển khác. Tuỳ vào mục đích sử dụng người tạo sẽ quy định các control bên trong nó.
+
+	- Cách tạo một user control
+- Tạo một file Windows form kế thừa Class UserControl
+- Thêm một số các control, phương thức, thuộc tính cho control
+- Xử lý các sự kiện bên trong UserControl
+
+	- cách sử dụng user control
+- Ta có thể khai báo trực tiếp bên trong lớp cần sử dụng hoặc có thế kéo thả trực tiếp
+- Thiết đặt cấu hình cho UserControll
+
+	- Lấy một ví dự về user control
+- Ví dụ: UserControll form login
+
+	- (nêu đặc thù của ví dụ)
+- Cung cấp khả năng sử dụng lại control ở nhiều nơi trong hoặc ngoài ứng dụng.
+
+	(tạo sử kiện) thuộc tính, phương thức, sự kiện

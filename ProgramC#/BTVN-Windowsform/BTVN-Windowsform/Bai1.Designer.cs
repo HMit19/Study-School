@@ -64,9 +64,8 @@
             this.lbResult.Location = new System.Drawing.Point(161, 253);
             this.lbResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbResult.Name = "lbResult";
-            this.lbResult.Size = new System.Drawing.Size(49, 20);
+            this.lbResult.Size = new System.Drawing.Size(0, 20);
             this.lbResult.TabIndex = 2;
-            this.lbResult.Text = "Result";
             // 
             // btnResult
             // 

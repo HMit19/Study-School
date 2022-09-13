@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Default ignored files
 /shelf/
 /workspace.xml
@@ -5,6 +6,15 @@
 /contentModel.xml
 /.idea.BTVN-Windowsform.iml
 /projectSettingsUpdater.xml
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.BTVN-Windowsform.iml
+>>>>>>> 5e3306f9632a45f7cccba9efc2f757194a891b3b
 /modules.xml
 # Editor-based HTTP Client requests
 /httpRequests/
