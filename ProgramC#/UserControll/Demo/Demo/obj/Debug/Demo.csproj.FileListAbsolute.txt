@@ -1,0 +1,10 @@
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\bin\Debug\Demo.exe.config
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\bin\Debug\Demo.exe
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\bin\Debug\Demo.pdb
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.SuggestedBindingRedirects.cache
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.exe
+H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.pdb
