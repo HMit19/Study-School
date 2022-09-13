@@ -28,22 +28,16 @@ namespace BTVN_Windowsform
         {
             if (check)
             {
-                if ((lbMove.Left + lbMove.Width) < (this.Width - 20))
-                {
-                    lbMove.Left += 10;
-                }
-                else
+                lbMove.Left += 5;
+                if (lbMove.Left >= this.Width - lbMove.Width)
                 {
                     check = false;
                 }
             }
             else
             {
-                if (lbMove.Left > 0)
-                {
-                    lbMove.Left -= 10;
-                }
-                else
+                lbMove.Left -= 5;
+                if (lbMove.Left <= 0)
                 {
                     check = true;
                 }

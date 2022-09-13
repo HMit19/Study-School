@@ -36,11 +36,6 @@ namespace BTVN_Windowsform
             }
         }
 
-        private void listBook_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void listBook_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             if (e.NewValue == CheckState.Checked)
@@ -60,7 +55,12 @@ namespace BTVN_Windowsform
             {
                 if (MessageBox.Show("Bạn có muốn xoá " + listBook.SelectedItem.ToString() + " không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
                 {
+                    listSelected.Remove(listBook.SelectedItem.ToString());
                     listBuy.Items.Remove(listBook.SelectedItem);
+                }
+                else
+                {
+                    e.NewValue = CheckState.Checked;
                 }
             }
         }
@@ -115,6 +115,20 @@ namespace BTVN_Windowsform
                 MessageBox.Show("Số điện thoại không tồn tại chữ cái!");
                 txtPhone.Text = txtPhone.Text.Remove(txtPhone.Text.Length - 1, 1);
             }
+
+        }
+
+        private void listBuy_DoubleClick(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn xoá " + listBook.SelectedItem.ToString() + " không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+                listSelected.Remove(listBook.SelectedItem.ToString());
+                listBuy.Items.Remove(listBook.SelectedItem);
+            }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

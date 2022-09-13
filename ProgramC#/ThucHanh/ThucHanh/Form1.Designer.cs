@@ -66,7 +66,6 @@
             this.labelPassword.Size = new System.Drawing.Size(70, 20);
             this.labelPassword.TabIndex = 2;
             this.labelPassword.Text = "Password";
-            this.labelPassword.Click += new System.EventHandler(this.password_Click);
             // 
             // btnCofirm
             // 

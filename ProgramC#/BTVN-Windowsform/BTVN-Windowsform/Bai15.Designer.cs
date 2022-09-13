@@ -42,12 +42,12 @@
             // 
             // txtMinute
             // 
-            this.txtMinute.Enabled = false;
             this.txtMinute.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtMinute.Location = new System.Drawing.Point(124, 112);
             this.txtMinute.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMinute.Name = "txtMinute";
-            this.txtMinute.Size = new System.Drawing.Size(114, 31);
+            this.txtMinute.ReadOnly = true;
+            this.txtMinute.Size = new System.Drawing.Size(114, 36);
             this.txtMinute.TabIndex = 1;
             this.txtMinute.Text = "5";
             // 
@@ -58,7 +58,7 @@
             this.txtSecond.Location = new System.Drawing.Point(344, 112);
             this.txtSecond.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSecond.Name = "txtSecond";
-            this.txtSecond.Size = new System.Drawing.Size(114, 31);
+            this.txtSecond.Size = new System.Drawing.Size(114, 36);
             this.txtSecond.TabIndex = 2;
             this.txtSecond.Text = "30";
             // 
@@ -69,7 +69,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(152, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.Size = new System.Drawing.Size(62, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "(phút)";
             // 
@@ -80,7 +80,7 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(381, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 20);
+            this.label2.Size = new System.Drawing.Size(58, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "(giây)";
             // 
@@ -89,7 +89,7 @@
             this.button1.Location = new System.Drawing.Point(121, 204);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 31);
+            this.button1.Size = new System.Drawing.Size(86, 40);
             this.button1.TabIndex = 1;
             this.button1.Text = "Chạy";
             this.button1.UseVisualStyleBackColor = true;
@@ -97,10 +97,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(245, 204);
+            this.button2.Location = new System.Drawing.Point(233, 204);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 31);
+            this.button2.Size = new System.Drawing.Size(112, 40);
             this.button2.TabIndex = 2;
             this.button2.Text = "Tạm dừng";
             this.button2.UseVisualStyleBackColor = true;
@@ -108,10 +108,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(369, 204);
+            this.button3.Location = new System.Drawing.Point(365, 204);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(86, 31);
+            this.button3.Size = new System.Drawing.Size(93, 40);
             this.button3.TabIndex = 3;
             this.button3.Text = "Kết thúc";
             this.button3.UseVisualStyleBackColor = true;
@@ -123,7 +123,7 @@
             this.label3.Font = new System.Drawing.Font("SimHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(279, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(22, 21);
+            this.label3.Size = new System.Drawing.Size(27, 27);
             this.label3.TabIndex = 7;
             this.label3.Text = ":";
             // 
@@ -135,7 +135,7 @@
             // 
             // Bai15
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(579, 295);

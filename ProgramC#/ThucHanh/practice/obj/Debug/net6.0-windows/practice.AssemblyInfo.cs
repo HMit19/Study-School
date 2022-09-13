@@ -11,21 +11,12 @@
 using System;
 using System.Reflection;
 
-<<<<<<< HEAD:ProgramC#/ThucHanh/practice/obj/Debug/net6.0-windows/practice.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyCompanyAttribute("practice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("practice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("practice")]
-=======
-[assembly: System.Reflection.AssemblyCompanyAttribute("BTVN")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("BTVN")]
-[assembly: System.Reflection.AssemblyTitleAttribute("BTVN")]
->>>>>>> df9c5f74b99e2cb01ee8f3e26b4419e643439da3:ProgramC#/BTVN/obj/Release/net6.0/BTVN.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

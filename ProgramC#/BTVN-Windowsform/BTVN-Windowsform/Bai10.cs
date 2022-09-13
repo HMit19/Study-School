@@ -46,60 +46,24 @@ namespace BTVN_Windowsform
 
         private void rd1_CheckedChanged(object sender, EventArgs e)
         {
-            if (rd1.Checked)
-            {
-                res = rd1.Text;
-                lbResult.Text = "Bạn hãy chọn thành phố cho " + rd1.Text;
-            }
-            else
-            {
-                res = "";
-            }
+            res = rd1.Text;
+            selectedCountry(rd1.Checked);
         }
         private void rd2_CheckedChanged(object sender, EventArgs e)
         {
-            if (rd2.Checked)
-            {
-                res = rd2.Text;
-                lbResult.Text = "Bạn hãy chọn thành phố cho " + rd2.Text;
-            }
-            else
-            {
-                res = "";
-            }
+            res = rd2.Text;
+            selectedCountry(rd2.Checked);
         }
 
         private void tp2_CheckedChanged(object sender, EventArgs e)
         {
-            if (res == rd2.Text)
-            {
-                MessageBox.Show("Chúc mừng bạn, thủ đô của Japan là " + tp2.Text);
-                lbResult.Text = "";
-            }
-            else if (res == "") { }
-            else
-            {
-                MessageBox.Show("Bạn sai rồi, thủ đô của " + res + " không phải là " + tp2.Text);
-                lbResult.Text = "";
-            }
-            EmptyOption();
+            selectedCapital(res == rd2.Text, tp2.Text);
         }
 
         private void tp8_CheckedChanged(object sender, EventArgs e)
         {
 
-            if (res == rd1.Text)
-            {
-                MessageBox.Show("Chúc mừng bạn, thủ đô của France là " + tp8.Text);
-                lbResult.Text = "";
-            }
-            else if (res == "") { }
-            else
-            {
-                MessageBox.Show("Bạn sai rồi, thủ đô của " + res + " không phải là " + tp8.Text);
-                lbResult.Text = "";
-            }
-            EmptyOption();
+            selectedCapital(res == rd1.Text, tp8.Text);
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -112,62 +76,54 @@ namespace BTVN_Windowsform
 
         }
 
-        private void rd3_CheckedChanged(object sender, EventArgs e)
+        public void selectedCountry(bool check)
         {
-            if (rd3.Checked)
+            if (check)
+                lbResult.Text = "Bạn hãy chọn thành phố cho " + res;
+            else
+                res = "";
+        }
+
+        public void selectedCapital(bool check, string capital)
+        {
+            if (check)
             {
-                res = rd3.Text;
-                lbResult.Text = "Bạn hãy chọn thành phố cho " + rd3.Text;
+                MessageBox.Show("Chúc mừng bạn, thủ đô của " + res + " là " + capital);
+                lbResult.Text = "";
             }
+            else if (res == "") { }
             else
             {
-                res = "";
+                MessageBox.Show("Bạn sai rồi, thủ đô của " + res + " không phải là " + capital);
+                lbResult.Text = "";
             }
+            EmptyOption();
+        }
+        private void rd3_CheckedChanged(object sender, EventArgs e)
+        {
+            res = rd3.Text;
+            selectedCountry(rd3.Checked);
         }
 
         private void tp7_CheckedChanged(object sender, EventArgs e)
         {
-            if (res == rd3.Text)
-            {
-                MessageBox.Show("Chúc mừng bạn, thủ đô của " + rd3.Text + " là " + tp7.Text);
-                lbResult.Text = "";
-            }
-            else if (res == "") { }
-            else
-            {
-                MessageBox.Show("Bạn sai rồi, thủ đô của " + res + " không phải là " + tp7.Text);
-                lbResult.Text = "";
-            }
-            EmptyOption();
+            selectedCapital(res == rd3.Text, tp7.Text);
         }
 
         private void rd4_CheckedChanged(object sender, EventArgs e)
         {
-            if (rd4.Checked)
-            {
-                res = rd4.Text;
-                lbResult.Text = "Bạn hãy chọn thành phố cho " + rd4.Text;
-            }
-            else
-            {
-                res = "";
-            }
+            res = rd4.Text;
+            selectedCountry(rd4.Checked);
         }
 
         private void tp4_CheckedChanged(object sender, EventArgs e)
         {
-            if (res == rd4.Text)
-            {
-                MessageBox.Show("Chúc mừng bạn, thủ đô của " + rd4.Text + " là " + tp4.Text);
-                lbResult.Text = "";
-            }
-            else if (res == "") { }
-            else
-            {
-                MessageBox.Show("Bạn sai rồi, thủ đô của " + res + " không phải là " + tp4.Text);
-                lbResult.Text = "";
-            }
-            EmptyOption();
+            selectedCapital(res == rd4.Text, tp4.Text);
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

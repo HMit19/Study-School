@@ -156,4 +156,8 @@
         private TextBox txtMonth;
         private TextBox txtYear;
     }
+
+    class BaiBaseClass : Bai1
+    {
+    }
 }

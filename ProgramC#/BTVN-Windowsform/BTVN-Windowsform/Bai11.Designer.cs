@@ -55,7 +55,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(61, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
+            this.label1.Size = new System.Drawing.Size(72, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Họ tên:";
             // 
@@ -64,7 +64,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(385, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 20);
+            this.label2.Size = new System.Drawing.Size(103, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Điện thoại:";
             // 
@@ -73,7 +73,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(61, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 20);
+            this.label3.Size = new System.Drawing.Size(218, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Danh sách các mặt hành";
             // 
@@ -82,7 +82,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(385, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 20);
+            this.label4.Size = new System.Drawing.Size(131, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Hàng đặt mua";
             // 
@@ -97,13 +97,14 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Phương thức thanh toán";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(55, 109);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(110, 24);
+            this.radioButton3.Size = new System.Drawing.Size(140, 29);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Thẻ tín dụng";
@@ -114,7 +115,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(55, 69);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(50, 24);
+            this.radioButton2.Size = new System.Drawing.Size(62, 29);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Sec";
@@ -125,7 +126,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(55, 26);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 24);
+            this.radioButton1.Size = new System.Drawing.Size(106, 29);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Tiền mặt";
@@ -148,7 +149,7 @@
             this.cbEmail.AutoSize = true;
             this.cbEmail.Location = new System.Drawing.Point(49, 109);
             this.cbEmail.Name = "cbEmail";
-            this.cbEmail.Size = new System.Drawing.Size(65, 24);
+            this.cbEmail.Size = new System.Drawing.Size(80, 29);
             this.cbEmail.TabIndex = 2;
             this.cbEmail.Text = "Email";
             this.cbEmail.UseVisualStyleBackColor = true;
@@ -158,7 +159,7 @@
             this.cbFax.AutoSize = true;
             this.cbFax.Location = new System.Drawing.Point(49, 69);
             this.cbFax.Name = "cbFax";
-            this.cbFax.Size = new System.Drawing.Size(49, 24);
+            this.cbFax.Size = new System.Drawing.Size(61, 29);
             this.cbFax.TabIndex = 1;
             this.cbFax.Text = "Fax";
             this.cbFax.UseVisualStyleBackColor = true;
@@ -168,7 +169,7 @@
             this.cbPhone.AutoSize = true;
             this.cbPhone.Location = new System.Drawing.Point(49, 26);
             this.cbPhone.Name = "cbPhone";
-            this.cbPhone.Size = new System.Drawing.Size(97, 24);
+            this.cbPhone.Size = new System.Drawing.Size(121, 29);
             this.cbPhone.TabIndex = 0;
             this.cbPhone.Text = "Điện thoại";
             this.cbPhone.UseVisualStyleBackColor = true;
@@ -177,14 +178,14 @@
             // 
             this.txtName.Location = new System.Drawing.Point(134, 34);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(180, 27);
+            this.txtName.Size = new System.Drawing.Size(180, 32);
             this.txtName.TabIndex = 6;
             // 
             // txtPhone
             // 
             this.txtPhone.Location = new System.Drawing.Point(487, 34);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(167, 27);
+            this.txtPhone.Size = new System.Drawing.Size(167, 32);
             this.txtPhone.TabIndex = 7;
             this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged);
             // 
@@ -211,25 +212,25 @@
             // listBuy
             // 
             this.listBuy.FormattingEnabled = true;
-            this.listBuy.ItemHeight = 20;
+            this.listBuy.ItemHeight = 25;
             this.listBuy.Location = new System.Drawing.Point(385, 166);
             this.listBuy.Name = "listBuy";
-            this.listBuy.Size = new System.Drawing.Size(270, 224);
+            this.listBuy.Size = new System.Drawing.Size(270, 229);
             this.listBuy.TabIndex = 10;
+            this.listBuy.DoubleClick += new System.EventHandler(this.listBuy_DoubleClick);
             // 
             // listBook
             // 
             this.listBook.FormattingEnabled = true;
             this.listBook.Location = new System.Drawing.Point(61, 166);
             this.listBook.Name = "listBook";
-            this.listBook.Size = new System.Drawing.Size(253, 224);
+            this.listBook.Size = new System.Drawing.Size(253, 220);
             this.listBook.TabIndex = 11;
             this.listBook.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.listBook_ItemCheck);
-            this.listBook.SelectedIndexChanged += new System.EventHandler(this.listBook_SelectedIndexChanged);
             // 
             // Bai11
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(714, 631);
