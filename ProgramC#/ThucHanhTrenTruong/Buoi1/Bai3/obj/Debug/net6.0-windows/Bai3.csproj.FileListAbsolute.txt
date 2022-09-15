@@ -1,0 +1,17 @@
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.csproj.AssemblyReference.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.csproj.GenerateResource.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.GeneratedMSBuildEditorConfig.editorconfig
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.AssemblyInfoInputs.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.AssemblyInfo.cs
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.csproj.CoreCompileInputs.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\bin\Debug\net6.0-windows\Bai3.exe
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\bin\Debug\net6.0-windows\Bai3.deps.json
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\bin\Debug\net6.0-windows\Bai3.runtimeconfig.json
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\bin\Debug\net6.0-windows\Bai3.dll
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\bin\Debug\net6.0-windows\Bai3.pdb
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.Form3.resources
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.dll
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\refint\Bai3.dll
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.pdb
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\Bai3.genruntimeconfig.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi1\Bai3\obj\Debug\net6.0-windows\ref\Bai3.dll
