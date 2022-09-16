@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuan2", "Tuan2\Tuan2.csproj", "{D9A05C8E-FBA8-4F37-94E6-08AF37CACA54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A05C8E-FBA8-4F37-94E6-08AF37CACA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A05C8E-FBA8-4F37-94E6-08AF37CACA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A05C8E-FBA8-4F37-94E6-08AF37CACA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A05C8E-FBA8-4F37-94E6-08AF37CACA54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE7238C0-53C8-43E0-9E9B-3E14BA8DBCA7}
+	EndGlobalSection
+EndGlobal

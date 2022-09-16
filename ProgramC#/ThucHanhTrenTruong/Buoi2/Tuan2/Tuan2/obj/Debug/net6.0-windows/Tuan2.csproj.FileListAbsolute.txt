@@ -1,0 +1,17 @@
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\bin\Debug\net6.0-windows\Tuan2.exe
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\bin\Debug\net6.0-windows\Tuan2.deps.json
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\bin\Debug\net6.0-windows\Tuan2.runtimeconfig.json
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\bin\Debug\net6.0-windows\Tuan2.dll
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\bin\Debug\net6.0-windows\Tuan2.pdb
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.csproj.AssemblyReference.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.Form1.resources
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.csproj.GenerateResource.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.AssemblyInfoInputs.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.AssemblyInfo.cs
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.csproj.CoreCompileInputs.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.dll
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\refint\Tuan2.dll
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.pdb
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.genruntimeconfig.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\ref\Tuan2.dll
