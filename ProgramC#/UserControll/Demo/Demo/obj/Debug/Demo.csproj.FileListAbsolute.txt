@@ -8,3 +8,14 @@ H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.GenerateRe
 H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
 H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.exe
 H:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.pdb
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\bin\Debug\Demo.exe.config
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\bin\Debug\Demo.pdb
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.SuggestedBindingRedirects.cache
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.Form1.resources
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.csproj.CopyComplete
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.exe
+E:\StudySchool\ProgramC#\UserControll\Demo\Demo\obj\Debug\Demo.pdb
