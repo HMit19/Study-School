@@ -191,6 +191,140 @@ join (select CTHD.SoHDB, HD.MaKH
 ) as hdmax on KH.MaKH = hdmax.MaKH
 
 
+/* 23: In ra danh sách 3 khách hàng (MaKH, TenKH) có doanh số cao nhất */
+select top 3 KH.MaKH, KH.TenKH
+from tKhachHang as KH join (
+	select MaKH, sum(SLBan * DonGiaBan) as GiaTri from tHoaDonBan as HD join tChiTietHDB as CTHD on HD.SoHDB = CTHD.SoHDB
+	join tSach as S on CTHD.MaSach = S.MaSach
+	group by MaKH
+) as A on KH.MaKH = A.MaKH
+order by GiaTri DESC
+
+
+
+/* 24: In ra danh sách các sách có giá bán bằng 1 trong 3 mức giá cao nhất */
+select MaSach, TenSach
+from tSach
+where DonGiaBan = any (select distinct top 3 DonGiaBan from tSach order by DonGiaBan DESC)
+
+
+/* Cau 25: In ra danh sách các sách do NXB Giáo Dục sản xuất có giá bằng 1 trong 3 mức giá cao nhất 
+(của tất cả các sản phẩm)*/
+select MaSach, TenSach
+from tSach
+where DonGiaBan = any (select distinct top 3 DonGiaBan from tSach as S 
+						join tNhaXuatBan as NXB on S.MaNXB = NXB.MaNXB
+						where NXB.TenNXB like N'NXB Giáo Dục'
+						order by DonGiaBan DESC)
+order by DonGiaBan DESC
+
+
+/* Cau 26: Tính tổng số đầu sách do NXB Giáo Dục xuất bản */
+select count(S.MaSach) as N'Số sách'
+from tSach as S join tNhaXuatBan as NXB on S.MaNXB = NXB.MaNXB
+where NXB.TenNXB like N'NXB Giáo Dục'
+
+
+/* Mai Văn Hiếu - 201200123 - CNTT4 - K61 */
+/* Cau 27: Tính tổng số sách của từng NXB */
+select NXB.TenNXB, count(S.MaSach) as N'Số sách'
+from tSach as S join tNhaXuatBan as NXB on S.MaNXB = NXB.MaNXB
+group by NXB.TenNXB
+
+
+/* Cau 28: Với từng NXB, tìm giá bán cao nhất, thấp nhất, trung bình của các sản phẩm */
+select NXB.TenNXB, max(S.DonGiaBan) as MAX, min(S.DonGiaBan) as MIN, avg(DonGiaBan) as AVG
+from tSach as S join tNhaXuatBan as NXB on S.MaNXB = NXB.MaNXB
+group by NXB.TenNXB
+
+
+/* Cau 29: Tính doanh thu bán hàng mỗi ngày */
+select HD.NgayBan, sum(SLBan * DonGiaBan)
+from tHoaDonBan as HD join tChiTietHDB as CTHD on HD.SoHDB = CTHD.SoHDB
+join tSach as S on S.MaSach = CTHD.MaSach
+group by HD.NgayBan
+
+
+/* Mai Văn Hiếu - 201200123 - CNTT4 - K61 */
+/* Cau 30: Tính tổng số lượng của từng sách bán ra trong tháng 8/2014 */
+select CTHD.MaSach, sum(SLBan) as N'Số lượng bán ra'
+from tChiTietHDB as CTHD join tHoaDonBan as HD on CTHD.SoHDB = HD.SoHDB
+where year(HD.NgayBan) = 2014 and MONTH(HD.NgayBan) = 8
+group by CTHD.MaSach
+
+
+/* Cau 31: Tính doanh thu bán hàng của từng tháng trong năm 2014 
+(kể cả những tháng không có doanh thu, VD: Tháng 1: 0; Tháng 2: 12000000; Tháng 3: 0; Tháng ....)*/
+select
+ISNULL(sum(case Month(NgayBan) when 1 then (SLBan * DonGiaBan) end), 0) as Thang1,
+ISNULL(sum(case Month(NgayBan) when 2 then (SLBan * DonGiaBan) end), 0) as Thang2,
+ISNULL(sum(case Month(NgayBan) when 3 then (SLBan * DonGiaBan) end), 0) as Thang3,
+ISNULL(sum(case Month(NgayBan) when 4 then (SLBan * DonGiaBan) end), 0) as Thang4,
+ISNULL(sum(case Month(NgayBan) when 5 then (SLBan * DonGiaBan) end), 0) as Thang5,
+ISNULL(sum(case Month(NgayBan) when 6 then (SLBan * DonGiaBan) end), 0) as Thang6,
+ISNULL(sum(case Month(NgayBan) when 7 then (SLBan * DonGiaBan) end), 0) as Thang7,
+ISNULL(sum(case Month(NgayBan) when 8 then (SLBan * DonGiaBan) end), 0) as Thang8,
+ISNULL(sum(case Month(NgayBan) when 9 then (SLBan * DonGiaBan) end), 0) as Thang9,
+ISNULL(sum(case Month(NgayBan) when 10 then (SLBan * DonGiaBan) end), 0) as Thang10,
+ISNULL(sum(case Month(NgayBan) when 11 then (SLBan * DonGiaBan) end), 0) as Thang11,
+ISNULL(sum(case Month(NgayBan) when 12 then (SLBan * DonGiaBan) end), 0) as Thang12
+from tSach join tChiTietHDB on tSach.MaSach = tChiTietHDB.MaSach
+join tHoaDonBan on tChiTietHDB.SoHDB = tHoaDonBan.SoHDB
+where YEAR(NgayBan) = 2014 
+
+
+/* Mai Văn Hiếu - 201200123 - CNTT4 - K61 */
+/* Cau 32: Tìm hóa đơn có mua ít nhất 4 sản phẩm khác nhau */
+select HD.SoHDB
+from tHoaDonBan as HD join tChiTietHDB as CTHD on HD.SoHDB = CTHD.SoHDB
+group by HD.SoHDB
+having count(MaSach) >= 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Select B.MaNXB, TenSach, MaSach,DonGiaBan
+from tSach  inner join (select tSach.MaNXB, Max(DonGiaBan) as DonGia		
+	from tSach) B on tSach.MaNXB = B.MaNXB 
+where DonGiaBan = DonGia
+
+
+
+
+
+
+
 
 
 
