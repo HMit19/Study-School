@@ -89,14 +89,16 @@
             // 
             // txtGia
             // 
+            this.txtGia.Enabled = false;
             this.txtGia.Location = new System.Drawing.Point(295, 251);
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(94, 27);
             this.txtGia.TabIndex = 14;
-            this.txtGia.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // cbSoluong
             // 
+            this.cbSoluong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSoluong.Enabled = false;
             this.cbSoluong.FormattingEnabled = true;
             this.cbSoluong.Items.AddRange(new object[] {
             "1",
@@ -113,9 +115,11 @@
             this.cbSoluong.Name = "cbSoluong";
             this.cbSoluong.Size = new System.Drawing.Size(71, 28);
             this.cbSoluong.TabIndex = 13;
+            this.cbSoluong.SelectedIndexChanged += new System.EventHandler(this.cbSoluong_SelectedIndexChanged);
             // 
             // cbDouong
             // 
+            this.cbDouong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDouong.FormattingEnabled = true;
             this.cbDouong.Items.AddRange(new object[] {
             "Coca cola",
@@ -125,7 +129,8 @@
             this.cbDouong.Name = "cbDouong";
             this.cbDouong.Size = new System.Drawing.Size(127, 28);
             this.cbDouong.TabIndex = 12;
-            this.cbDouong.SelectedIndexChanged += new System.EventHandler(this.cbDouong_SelectedIndexChanged_1);
+            this.cbDouong.SelectedIndexChanged += new System.EventHandler(this.cbDouong_SelectedIndexChanged);
+            this.cbDouong.SelectedValueChanged += new System.EventHandler(this.cbDouong_SelectedValueChanged);
             // 
             // label6
             // 
@@ -144,7 +149,7 @@
             this.btnNew.TabIndex = 10;
             this.btnNew.Text = "Thêm &mới";
             this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Click += new System.EventHandler(this.btnNew_Click_1);
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // button1
             // 
@@ -154,11 +159,13 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Thêm vào DS";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtGiaduythuyen
             // 
             this.txtGiaduythuyen.Location = new System.Drawing.Point(145, 133);
             this.txtGiaduythuyen.Name = "txtGiaduythuyen";
+            this.txtGiaduythuyen.ReadOnly = true;
             this.txtGiaduythuyen.Size = new System.Drawing.Size(186, 27);
             this.txtGiaduythuyen.TabIndex = 8;
             // 
@@ -172,6 +179,7 @@
             this.rdNuangay.TabStop = true;
             this.rdNuangay.Text = "Nửa ngày";
             this.rdNuangay.UseVisualStyleBackColor = true;
+            this.rdNuangay.CheckedChanged += new System.EventHandler(this.rdNuangay_CheckedChanged);
             // 
             // rdCangay
             // 
@@ -183,6 +191,7 @@
             this.rdCangay.TabStop = true;
             this.rdCangay.Text = "Cả ngày";
             this.rdCangay.UseVisualStyleBackColor = true;
+            this.rdCangay.CheckedChanged += new System.EventHandler(this.rdCangay_CheckedChanged);
             // 
             // txtHoten
             // 
@@ -265,7 +274,7 @@
             this.btnThoat.TabIndex = 2;
             this.btnThoat.Text = "T&hoát";
             this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.button3_Click);
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // Form2
             // 

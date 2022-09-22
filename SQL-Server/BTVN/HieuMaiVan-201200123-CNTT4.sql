@@ -281,6 +281,17 @@ group by HD.SoHDB
 having count(MaSach) >= 4
 
 
+/* Cau33: Tìm hóa đơn có mua 3 sách do NXB Giáo Dục xuất bản (3 sách khác nhau) */
+select CTHD.SoHDB, count(distinct S.MaSach) as SL
+from tHoaDonBan as HD join tChiTietHDB as CTHD on HD.SoHDB = CTHD.SoHDB
+join tSach as S on CTHD.MaSach = S.MaSach 
+join tNhaXuatBan as NXB on S.MaNXB = NXB.MaNXB
+where NXB.TenNXB like N'NXB Giáo Dục'
+group by CTHD.SoHDB
+having count(s.MaSach) >= 3	
+
+
+/* Cau 34: Tìm khách hàng (MaKH, TenKH) có số lần mua hàng nhiều nhất */
 
 
 

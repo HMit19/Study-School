@@ -172,12 +172,16 @@ select tChiTietHDB.SoHDB, Count(distinct MaSach) as SL
 from tChiTietHDB inner join tHoaDonBan on tChiTietHDB.SoHDB = tHoaDonBan.SoHDB
 group by tChiTietHDB.SoHDB
 Having Count(MaSach) >= 4
+
 --33. Tìm hóa đơn có mua 3 sách do NXB Giáo Dục xuất bản (3 sách khác nhau).
 select tChiTietHDB.SoHDB, Count(distinct tSach.MaSach) as SL
-from tChiTietHDB inner join tHoaDonBan on tChiTietHDB.SoHDB = tHoaDonBan.SoHDB inner join tSach on tSach.MaSach = tChiTietHDB.MaSach inner join tNhaXuatBan on tSach.MaNXB = tNhaXuatBan.MaNXB
+from tChiTietHDB inner join tHoaDonBan on tChiTietHDB.SoHDB = tHoaDonBan.SoHDB 
+inner join tSach on tSach.MaSach = tChiTietHDB.MaSach 
+inner join tNhaXuatBan on tSach.MaNXB = tNhaXuatBan.MaNXB
 where  TenNXB = N'NXB Giáo Dục'
 group by tChiTietHDB.SoHDB
 Having Count(tSach.MaSach) >= 3
+
 --34. Tìm khách hàng (MaKH, TenKH) có số lần mua hàng nhiều nhất.
 select tKhachHang.MaKH, TenKH
 from tKhachHang inner join tHoaDonBan on tKhachHang.MaKH = tHoaDonBan.MaKH

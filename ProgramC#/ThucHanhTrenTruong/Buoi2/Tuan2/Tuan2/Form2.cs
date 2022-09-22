@@ -16,52 +16,94 @@ namespace Tuan2
         public Form2()
         {
             InitializeComponent();
-            InitializeComponent();
             map = new Dictionary<string, float>();
             map.Add("Coca cola", 0.5f);
             map.Add("Pepsi", 0.8f);
             map.Add("Seven up", 1.0f);
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void btnThoat_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void cbDouong_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                this.Close();
+            cbSoluong.Enabled = true;
+            foreach (string i in map.Keys)
+            {
+                if (i.Equals(cbDouong.Text))
+                {
+                    txtGia.Text = map[i].ToString();
+                }
+            }
+            if(cbSoluong.Text != "")
+            {
+                string doUong = cbDouong.Text;
+                int soLuong = int.Parse(cbSoluong.Text);
+                txtGia.Text = (map[doUong] * soLuong).ToString();
+            }
         }
 
         private void btnNew_Click(object sender, EventArgs e)
         {
             txtHoten.Text = "";
             txtGiaduythuyen.Text = "";
-            txtGia.Text = "";
-            cbDouong.Text = "";
-            cbSoluong.Text = "";
             rdCangay.Checked = false;
             rdNuangay.Checked = false;
-            //txtHoten.Focus();
+            cbDouong.Text = "";
+            cbSoluong.Text = "";
+            txtHoten.Focus();
+            txtGia.Text = "";
         }
 
-        private void cbDouong_SelectedIndexChanged_1(object sender, EventArgs e)
+        private void cbSoluong_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //foreach (string index in map.Keys)
-            //{
-            //    listBox1.Items.Add("Tên đồ uống: " + index + " - Giá: " + map[index]);
-            //    if (cbDouong.Text.Equals(index))
-            //    {
-            //        txtGia.Text = map[index].ToString();
-            //    }
-            //}
-            //txtGia.Text = cbDouong.Text;
+            string doUong = cbDouong.Text;
+            if (cbSoluong.Text != "")
+            {
+                int soLuong = int.Parse(cbSoluong.Text);
+                txtGia.Text = (map[doUong] * soLuong).ToString();
+            }
         }
 
-        private void btnNew_Click_1(object sender, EventArgs e)
+        private void cbDouong_SelectedValueChanged(object sender, EventArgs e)
         {
-            btnNew.Text = "bth";
+            if(cbDouong.Text == "")
+            {
+                cbSoluong.Enabled = false;
+            }
+        }
+
+        private void rdCangay_CheckedChanged(object sender, EventArgs e)
+        {
+            txtGiaduythuyen.Text = "200";
+        }
+
+        private void rdNuangay_CheckedChanged(object sender, EventArgs e)
+        {
+            txtGiaduythuyen.Text = "100";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string item = txtHoten.Text + "|";
+            float gia = float.Parse(txtGia.Text);
+            if (rdCangay.Checked)
+            {
+                item += rdCangay.Text;
+                gia += 200;
+            }
+            else
+            {
+                gia += 100;
+                item += rdNuangay.Text;
+            }
+            item += "|" + "Đồ uống " + txtGia.Text + "$|" + "Tổng " + gia.ToString();
+            listBox1.Items.Add(item);
         }
     }
 }
