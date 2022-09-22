@@ -21,5 +21,23 @@ namespace Tuan2
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtHoten.Text = "";
+            txtGiaduythuyen.Text = "";
+            txtGia.Text = "";
+            cbDouong.Text = "";
+            cbSoluong.Text = "";
+            rdCangay.Checked = false;
+            rdNuangay.Checked = false;
+            txtHoten.Focus(); 
+        }
     }
 }
