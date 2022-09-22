@@ -33,3 +33,4 @@ H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-w
 H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.genruntimeconfig.cache
 H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\ref\Tuan2.dll
 H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.Form2.resources
+E:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi2\Tuan2\Tuan2\obj\Debug\net6.0-windows\Tuan2.Form2.resources
