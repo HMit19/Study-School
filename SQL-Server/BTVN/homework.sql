@@ -203,7 +203,7 @@ Having Sum(SLBan * DonGiaBan) = (select top 1 Sum(SLBan * DonGiaBan)
 														order by Sum(SLBan * DonGiaBan) DESC)
 
 --36. Tìm sách có tổng số lượng bán ra thấp nhất trong năm 2014.
-select MaSach, Sum(SLBan)
+select MaSach
 from tHoaDonBan inner join tChiTietHDB on tHoaDonBan.SoHDB = tChiTietHDB.SoHDB
 where YEAR(NgayBan) = 2014
 group by MaSach
