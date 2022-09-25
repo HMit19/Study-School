@@ -1,0 +1,115 @@
+Phiếu điều tra:
+I, Bạn là đối tượng nào trong cửa hàng?
+	1, khách hàng
+	2, Nhân viên
+	3, Quản lý
+	4, Không gì cả
+II, Bạn có hài lòng về hệ thống quản lý cửa hàng hiện tại không?
+	1, có
+	2, không
+III, Bạn thường sử dụng phương thức nào để thanh toán?
+	1, Tiền mặt
+	2, Thẻ ATM
+	3, Banking
+IV, Bạn có thích tính năng tích điểm tại cửa hàng hay không?
+	1, có
+	2, không
+V, Theo bạn lợi ích của việc tích điểm là gì?
+	1, Quản lý thông tin tin khách hàng
+	2, Quản lý được số lượng khách hàng thân thiết
+	3, Tăng lòng tin 
+	4, Là một chiến lược marketing tốt
+	5, 
+
+
+- Quản lý bán hàng:
+	- Quản lý nhập hàng
+		- Quản lý kho hàng
+			- Quán lý nhân viên: 
+	- Quán lý khách hàng
+		- Quản lý bảo hành
+	- Quản lý thanh lý
+	- Quán lý báo cao
+
+- Phỏng vấn: 
+	+ Quản lý:
+	1, Cửa hàng đã hoạt động được bao lâu?
+	2, Cửa hàng mình đã từng sử dụng hệ thống nào để quản lý chưa?
+		- nếu rồi: 
+			
+			+ Hệ thống hiện tại đang sử dụng để giải quyết những vấn đề gì?
+			+ Hiện tại hệ thống hoạt động như thế nào?	
+				- Ưu điểm của hệ thống hiện tại là gì?
+				- Có mong muốn cải thiện gì thêm cho hệ thống?
+		- Nếu chưa: 
+			+ Hiện tại cửa hàng nhập hàng như thế nào?
+			+ Cửa hàng có khó khăn gì trong việc quản lý hay không - Ví dụ như: Kiểm kê kho hàng, thống kê doanh thu...?
+
+
+
+
+* Đối tượng đã sử dụng hệ thống(Hỏi quản lý):
+	- Hệ thống đang quản lý những gì?
+		+ Giày: Đối với sản phẩm giày thì cửa hàng quản lý những thông tin gì?
+		+ Sản phẩm bán ra: Sau khi bán ra thì sẽ làm gì lên hệ thống?
+		+ Quản lý khách hàng: Hệ thống lưu trữ những thông tin gì của khách hàng? 
+		+ Quản lý nhà cung cấp:
+		+ Quản lý nhân viên: Nhân viên được thực thi chức năng nào trong hệ thống?
+
+	- Hệ thống phân quyền như thế nào?
+	- Sau khi nhập hàng thì xử lý như thế nào?
+	- Khi nào thì cần nhập thêm sản phẩm?
+	- Đối với khách hàng đã từng mua hàng thì hệ thống nhận biết bằng thông gì nào?
+	- Đối với sản phẩm bảo hành thì xử lý như thế nào?
+	- Đối với các sản phẩm nằm trong danh sách khuyến mãi thì giá được cập nhật như thế nào?
+	- Dữ liệu của hệ thống có được sao lưu lại hay không?
+	- Khi hệ thống không hoạt động thì cửa hàng làm việc như thế nào?
+	- Báo cáo thì gồm có những thông tin gì?
+
+* Đối tượng chưa sử dụng hệ thống(hỏi người trực tiếp bán hàng):
+	- Sau khi nhập sản phẩm về Xử lý như thế nào?
+		+ Quản lý những thông tin gì của sản phẩm?
+		+ Sản phẩm được phân loại như thế nào?
+	- Cửa hàng có hỗ trợ đặt hàng trước hay không?
+		+ nếu đặt trước thì xử lý như thế nào?
+	- Làm thế nào để kiểm soát số lượng bán ra và còn lại?
+	- Sản phẩm bán ra thì xử lý như thế nào?
+	- Cửa hàng lưu thông tin của khách hàng không? Lưu những thông tin gì của khách hàng?
+	- Đối với sản phẩm lỗi thì cửa hàng xử lý như thế nào?
+	- Hiện cửa hàng gặp khó khăn gì trong việc quản lý sản phẩm hay không?
+	- Cửa hàng có thuê nhân viên không? 
+		+ nếu có: Nhân viên làm những công việc gì khi bán hàng?
+	- Cửa hàng có dự định xây dựng hệ thống bán hàng để quản lý cửa hàng hay không?
+		- nếu có: Thì có những yêu cầu gì cho hệ thống?
+
+* Đôi với nhân viên:
+	- 
+
+
+
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	3, Quy trình từ lúc nhập sản phẩm đến lúc bán sản phẩm ra phải trải qua các bước như thế nào?
+		- Sau khi sản phẩm nhập về thì phải làm những công việc gì
+		- Khi gặp sản phẩm nhập bị lỗi thì sử lý như thế nào
+		
+	4, Đâu là tác dụng của việc quan lý hàng hóa?
+	5, Sau khi bán ra sản phẩm, thì khách hàng được nhận quyền lợi gì?
+		- Quy trình bảo hành sản phẩm như thế nào
+		- 
+	7, Nếu câu trả lời 2 là chưa thì, Hỏi có dự định sử dụng hệ thống để việc quản lý dễ dàng hơn không?
+
+	
+	
