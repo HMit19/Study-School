@@ -1,0 +1,11 @@
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\bin\Debug\DemoDatabase.exe.config
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\bin\Debug\DemoDatabase.exe
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\bin\Debug\DemoDatabase.pdb
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.csproj.AssemblyReference.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.csproj.SuggestedBindingRedirects.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.Form1.resources
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.Properties.Resources.resources
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.csproj.GenerateResource.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.csproj.CoreCompileInputs.cache
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.exe
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.pdb

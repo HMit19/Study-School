@@ -14,6 +14,8 @@ alter table dshs add dtbc float;
 -- tính điểm trung bình trung
 -- khai bao con tro 
 go
+
+
 declare hs cursor for select mahs from DSHS
 -- su dung con tro
 open hs
@@ -34,4 +36,17 @@ close hs;
 -- 
 Deallocate hs
 
+
+CREATE PROCEDURE DiemTrungBinh @mahs nvarchar(5), @dtb float
+output
+AS
+begin
+select @dtb=round((toan*2+van*2+ly+hoa)/6, 2) from diem where
+MAHS=@mahs
+End
+
+--Gọi thủ tục:
+declare @tb float
+exec DiemTrungBinh '00019', @tb output
+print @tb
 
