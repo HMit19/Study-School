@@ -40,7 +40,7 @@ namespace Tuan2
                     txtGia.Text = map[i].ToString();
                 }
             }
-            if(cbSoluong.Text != "")
+            if(cbSoluong.SelectedIndex != -1 && cbDouong.SelectedIndex != -1)
             {
                 string doUong = cbDouong.Text;
                 int soLuong = int.Parse(cbSoluong.Text);
@@ -51,13 +51,14 @@ namespace Tuan2
         private void btnNew_Click(object sender, EventArgs e)
         {
             txtHoten.Text = "";
-            txtGiaduythuyen.Text = "";
             rdCangay.Checked = false;
             rdNuangay.Checked = false;
-            cbDouong.Text = "";
-            cbSoluong.Text = "";
-            txtHoten.Focus();
+            txtGiaduythuyen.Text = "";
+            cbDouong.SelectedIndex = -1;
+            cbSoluong.SelectedIndex = -1;
+            cbSoluong.Enabled = false;
             txtGia.Text = "";
+            txtHoten.Focus();
         }
 
         private void cbSoluong_SelectedIndexChanged(object sender, EventArgs e)

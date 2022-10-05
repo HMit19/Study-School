@@ -87,5 +87,15 @@ namespace Tuan2
             sumDiem.Text = sum.ToString();
             avg.Text = Math.Round((double)(sum / count), 2).ToString();
         }
+
+        private void sumTin_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(sumTin.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Điểm phải là một số");
+                sumTin.Text = sumTin.Text.Remove(sumTin.Text.Length - 1);
+                return;
+            }
+        }
     }
 }

@@ -1,0 +1,20 @@
+- Phỏng vấn Quản lý:
+	- Hệ thống quản lí hiện tải của cửa hàng hoạt động như thế nào
+	- Hệ thống quản lý của cửa hàng được chia thành những phần nào?
+	- Hệ thống quản lý của cửa hàng được chia thành những phần nào?
+	- Ưu điểm của hệ thống quản lý hiện tại tại cửa hàng là gì?
+	- Cơ chế phân loại hàng hoá dựa trên tiêu chí gì?
+
+- Phỏng vấn nhân viên
+	- Theo bạn, việc quản lý hệ thống cửa hàng như bây giờ có thuận lợi không?
+	- Hệ thống quản lý bao gồm những mục nào?
+	- Bạn có mong muốn quản lý cửa hàng được xây dựng thêm hay phát triển thêm như thế nào không?
+	- Bạn có hài lòng về mức lương thưởng như bây giờ không?
+	- Mức lương trung bình của nhân viên cửa hàng là bao nhiêu?
+	- Điều gì là bạn thấy tốt nhất về hệ thống thông tin mà bạn sử dụng hiện tại để áp dụng trong công việc của bạn?
+
+- Phỏng vấn khách hàng
+	- Phương thức thanh toán mà bạn các thường dùng khi mua hàng tại cửa hàng là gì?
+	- Theo bạn đâu là tác dụng của chương trình tích điểm của các cửa hàng?
+	- Bạn cảm thấy sự phân chia khu vựa quản lý sản phẩm tại của hàng có thuận tiện cho việc tìm mua các sản phẩm không?
+	- Bạn có muốn mua hàng trực tiếp hay online?

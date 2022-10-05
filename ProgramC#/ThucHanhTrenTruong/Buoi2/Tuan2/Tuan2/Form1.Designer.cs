@@ -221,8 +221,10 @@
             this.sumTin.Location = new System.Drawing.Point(433, 232);
             this.sumTin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sumTin.Name = "sumTin";
+            this.sumTin.ReadOnly = true;
             this.sumTin.Size = new System.Drawing.Size(118, 23);
             this.sumTin.TabIndex = 5;
+            this.sumTin.TextChanged += new System.EventHandler(this.sumTin_TextChanged);
             // 
             // avg
             // 
@@ -231,6 +233,7 @@
             this.avg.Location = new System.Drawing.Point(433, 268);
             this.avg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.avg.Name = "avg";
+            this.avg.ReadOnly = true;
             this.avg.Size = new System.Drawing.Size(177, 23);
             this.avg.TabIndex = 7;
             // 
@@ -241,6 +244,7 @@
             this.sumDiem.Location = new System.Drawing.Point(684, 230);
             this.sumDiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sumDiem.Name = "sumDiem";
+            this.sumDiem.ReadOnly = true;
             this.sumDiem.Size = new System.Drawing.Size(112, 23);
             this.sumDiem.TabIndex = 6;
             // 
@@ -274,7 +278,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 368);
+            this.ClientSize = new System.Drawing.Size(815, 377);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnTinh);
             this.Controls.Add(this.sumDiem);

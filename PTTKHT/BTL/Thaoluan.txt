@@ -1,25 +1,3 @@
-Phiếu điều tra:
-I, Bạn là đối tượng nào trong cửa hàng?
-	1, khách hàng
-	2, Nhân viên
-	3, Quản lý
-	4, Không gì cả
-II, Bạn có hài lòng về hệ thống quản lý cửa hàng hiện tại không?
-	1, có
-	2, không
-III, Bạn thường sử dụng phương thức nào để thanh toán?
-	1, Tiền mặt
-	2, Thẻ ATM
-	3, Banking
-IV, Bạn có thích tính năng tích điểm tại cửa hàng hay không?
-	1, có
-	2, không
-V, Theo bạn lợi ích của việc tích điểm là gì?
-	1, Quản lý thông tin tin khách hàng
-	2, Quản lý được số lượng khách hàng thân thiết
-	3, Tăng lòng tin 
-	4, Là một chiến lược marketing tốt
-	5, 
 
 
 - Quản lý bán hàng:
@@ -46,8 +24,7 @@ V, Theo bạn lợi ích của việc tích điểm là gì?
 			+ Cửa hàng có khó khăn gì trong việc quản lý hay không - Ví dụ như: Kiểm kê kho hàng, thống kê doanh thu...?
 
 
-
-
+''''Phiếu hỏi:
 * Đối tượng đã sử dụng hệ thống(Hỏi quản lý):
 	- Hệ thống đang quản lý những gì?
 		+ Giày: Đối với sản phẩm giày thì cửa hàng quản lý những thông tin gì?
@@ -58,7 +35,7 @@ V, Theo bạn lợi ích của việc tích điểm là gì?
 
 	- Hệ thống phân quyền như thế nào?
 	- Sau khi nhập hàng thì xử lý như thế nào?
-	- Khi nào thì cần nhập thêm sản phẩm?
+	- Khi nào thì cần nhập thêm sản phẩm?	
 	- Đối với khách hàng đã từng mua hàng thì hệ thống nhận biết bằng thông gì nào?
 	- Đối với sản phẩm bảo hành thì xử lý như thế nào?
 	- Đối với các sản phẩm nằm trong danh sách khuyến mãi thì giá được cập nhật như thế nào?
@@ -79,15 +56,64 @@ V, Theo bạn lợi ích của việc tích điểm là gì?
 	- Hiện cửa hàng gặp khó khăn gì trong việc quản lý sản phẩm hay không?
 	- Cửa hàng có thuê nhân viên không? 
 		+ nếu có: Nhân viên làm những công việc gì khi bán hàng?
-	- Cửa hàng có dự định xây dựng hệ thống bán hàng để quản lý cửa hàng hay không?
-		- nếu có: Thì có những yêu cầu gì cho hệ thống?
 
 * Đôi với nhân viên:
-	- 
+	- Hệ thống bán hàng đang quản lý những gì?
+	- Sau khi bán sản phẩm thì nhân viên phải thao tác trên hệ thống như thế nào? 
+	- Làm sao để kiểm tra 1 sản phẩm có còn trong kho hay không ? 
+	- Nếu như khách hàng muốn đặt hàng sản phẩm trước thì sẽ quản lý thông tin đó như thế nào? 
+	- Nếu khách hàng muốn đến đổi trả hàng thì nhân viên sẽ kiểm tra thông tin như thế nào? Quy trình đổi trả sẽ diễn ra sao? 
+	- Bạn thấy có khó khăn gì trong việc sử dụng hệ thống hay không?
+	- Bạn có muốn hệ thống có thêm chức năng nào hay không? 
+	
+* Đối với khách hàng
+	- Bạn đã từng làm tại cửa hàng nào hay chưa?
+	+ Nếu rồi: 
+	- Bạn làm fulltime hay parttime - (full or part)
+	- Bạn là tại cửa hàng nào?
+	- Chức vụ gì trong cửa hàng? (quản lí, nhân viên, khác)
+	- Công việc bạn cần làm những gì?
+	- Theo bạn đâu là tác dụng của việc quản lý trong cửa hàng	
+	- Bạn thường sử dụng phương thức nào để thanh toán?
+		1, Tiền mặt
+		2, Thẻ ATM
+		3, Banking
+	- Bạn có thích tính năng tích điểm tại cửa hàng hay không?
+		1, có
+		2, không
+	- Bạn có hài lòng về chính sách bảo hành tại cửa hàng hay không?
+	
+	+ Nếu chưa:
+	- Bạn thường mua giày tại cửa hàng nào?
+	- Tiêu chí để chọn cửa hàng là gì?
+	- Bạn thường chọn giày như thế nào?
+	- Bạn thường sử dụng phương thức nào để thanh toán?
+		1, Tiền mặt
+		2, Thẻ ATM
+		3, Banking
+
+	- Bạn có thích tính năng tích điểm tại cửa hàng hay không?
+		1, có
+		2, không
+	- Bạn có hài lòng về chính sách bảo hành tại cửa hàng hay không?
+
+'''
+			
 
 
 
-			 
+'''Phiếu điều tra: 
+	Đối với quản lý:
+	- Bạn có hài lòng về hệ thống hiện tại hay không? 
+
+
+
+
+
+
+
+
+
 
 
 
