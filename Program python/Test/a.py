@@ -128,14 +128,95 @@ import queue
 # print(Q.get())
 
 # tìm trung vị sử dụng hai hàng đợi ưu tiên
-import  queue
-Q1 = queue.PriorityQueue()
-Q2 = queue.PriorityQueue()
+# import  queue
+# Q1 = queue.PriorityQueue()
+# Q2 = queue.PriorityQueue()
+# n = int(input())
+# a = input().split()
+# for x in a:
+#     Q1.put(int(x))
+#     Q2.put(-Q1.get())
+#     if Q1.qsize() < Q2.qsize(): Q1.put(-Q2.get())
+# if Q1.qsize() > Q2.qsize(): print(Q1.get())
+# else: print((Q1.get() - Q2.get())/2)
+
+ # sử dụng python giải bài toán đong Nước
+# from queue import PriorityQueue
+# n = int(input())
+# a = input().split()
+# Q = PriorityQueue()
+# for x in a: Q.put(int(x))
+# t = 0
+# while Q.qsize() > 1:
+#     u = Q.get()
+#     v = Q.get()
+#     Q.put(u + v)
+#     t += u + v
+# print(t)
+
+# bài toán tháp hà nội python
+# def thap(n, a, b, c):
+#     if n == 1:
+#         print(a, c)
+#     else:
+#         thap(n-1, a, c, b)
+#         print(a, c)
+#         thap(n-1, b, a, c)
+# n = int(input())
+# print(2**n - 1)
+# thap(n, 1, 2, 3)
+
+# ý tưởng của thuật toán tháp hà Nội
+# 1. Chuyển n-1 đĩa từ A sang B
+# 2. Chuyển đĩa còn lại từ A sang C
+# 3. Chuyển n-1 đĩa từ B sang C
+# bài toán tháp hà nội python
+# def thap(n, a, b, c):
+#     if n == 1:
+#         print(a, c)
+#     else:
+#         thap(n-1, a, c, b)
+#         print(a, c)
+#         thap(n-1, b, a, c)
+# n = int(input())
+# print(2**n - 1)
+# thap(n, 1, 2, 3)
+
+
+# thuật toán đong Nước python
+# from queue import PriorityQueue
+# n = int(input())
+# a = input().split()
+# Q = PriorityQueue()
+# for x in a: Q.put(int(x))
+# t = 0
+# while Q.qsize() > 1:
+#     u = Q.get()
+#     v = Q.get()
+#     Q.put(u + v)
+#     t += u + v
+# print(t)
+
+# bài toán liệt kê mọi con đường về 0 bằng LifoQueue
+# from queue import LifoQueue
+# n = int(input())
+# Q = LifoQueue()
+# Q.put(n)
+# while not Q.empty():
+#     x = Q.get()
+#     print(x, end = ' ')
+#     if x == 0: continue
+#     Q.put(x - 1)
+#     Q.put(x - 2)
+
+# thuật toán thang máy
+from queue import LifoQueue
 n = int(input())
-a = input().split()
-for x in a:
-    Q1.put(int(x))
-    Q2.put(-Q1.get())
-    if Q1.qsize() < Q2.qsize(): Q1.put(-Q2.get())
-if Q1.qsize() > Q2.qsize(): print(Q1.get())
-else: print((Q1.get() - Q2.get())/2)
+Q = LifoQueue()
+Q.put(n)
+while not Q.empty():
+    x = Q.get()
+    print(x, end = ' ')
+    if x == 0: continue
+    Q.put(x - 1)
+    Q.put(x - 2)
