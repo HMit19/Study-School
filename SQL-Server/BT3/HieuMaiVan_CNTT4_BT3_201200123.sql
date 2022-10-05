@@ -17,7 +17,7 @@ select * from HSHS1
 các thông tin: Họ tên sinh viên, Mã khoa, Nơi sinh, Học bổng */
 create view DSHS2
 as
-select DS.HoSV, DS.TenSV, DS.HocBong
+select DS.HoSV, DS.TenSV, DS.HocBong, DS.NoiSinh
 from DSSinhVien as DS
 where DS.HocBong > 150000 and DS.NoiSinh = N'Hà Nội'
 
@@ -71,6 +71,7 @@ where DS.HocBong > (select max(DS.HocBong)
 select * from DSHS6
 
 
+/* 7, Tạo view đưa ra thông tin những sinh viên đạt điểm cao nhất trong từng môn */
 
 
 

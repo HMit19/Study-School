@@ -1,0 +1,29 @@
+1, thuật toán tìm kiếm
+a, Bài toán
+	cho không gian trạng thái: k =(S, s, F, R)
+	S: tập các trạng thái
+	s: thuộc S trạng thái xuất phát
+	F: con S tập các trạng thái kết thúc
+	R:  quy tắc
+	
+VD: tacanh
+VD: tháp hà nội
+VD: Đong k lít nước thì can m, n lít
+
+b, Thuật toán BFS và DFS
+c, Giải mã
+	function Search(K = (S, s, F, R), Q)
+	Begin
+		Q.put(s)
+		D = {s:true} -- đánh dấu các trạng thái tồn tại
+		while !Q.empty(){
+			u = Q.get()
+			for search v thuộc Next(u)
+			if(v not in D){
+				D[Q] = True;
+				Q.put(Q)
+				if(v thuộc F) return true;
+			}
+			return false;
+		}
+			

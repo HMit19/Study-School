@@ -13,6 +13,8 @@ namespace DemoDatabase
 {
     public partial class Form1 : Form
     {
+        private object functions;
+
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +35,7 @@ namespace DemoDatabase
             string username = GetMD5(tk);
             txtMk.Text = password;
             txtTK.Text = username;
+            //txtTK.Text = functions.autoCode(username);
         }
 
         // phương thức mã hóa mật khẩu

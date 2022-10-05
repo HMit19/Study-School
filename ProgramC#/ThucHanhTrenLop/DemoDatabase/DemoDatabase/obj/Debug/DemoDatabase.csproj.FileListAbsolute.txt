@@ -9,3 +9,4 @@ E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\Dem
 E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.csproj.CoreCompileInputs.cache
 E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.exe
 E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.pdb
+E:\StudySchool\ProgramC#\ThucHanhTrenLop\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.Form2.resources
