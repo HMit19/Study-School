@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uQHr6QaANZ5kftO+AHYIsBA4+AgnX+Z7HYDaEOVGhZlM+Sv9CDo2ta6yFnPqYYA5VZrOU7m5bwmxK8flEu9Obw==",
+  "success": true,
+  "projectFilePath": "H:\\StudySchool\\ProgramC#\\sukien\\sukien.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

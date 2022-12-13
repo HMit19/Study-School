@@ -40,33 +40,47 @@ namespace in_out
                 throw (new myException("sai roi"));
             return a;
         }
+
         public void xuat(int x)
         {
             Console.WriteLine("thong tin can xuat ra man hinh: ");
             Console.WriteLine(x);
         }
     }
-
 }
 
 namespace TheFirstProgram
 {
     class Program
     {
+        public static void nhap(string id)
+        {
+            Console.WriteLine("Nhap id: ");
+            int i = Convert.ToInt32(Console.ReadLine());
+        }
+
+        public static void xuat(string id)
+        {
+            Console.WriteLine("id = ${0}", id);
+        }
+        public delegate void input(string input);
         static void Main(string[] args)
         {
-            try
-            {
-                int a = 0;
-                Scanner scanner = new Scanner();
-                a = scanner.nhap(a);
-                scanner.xuat(a);
-            }
-            catch (myException e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            //try
+            //{
+            //    int a = 0;
+            //    Scanner scanner = new Scanner();
+            //    a = scanner.nhap(a);
+            //    scanner.xuat(a);
+            //}
+            //catch (myException e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+            Console.WriteLine("Hello World!");
+            input inp;
+            inp = nhap;
+            inp("oke");
         }
     }
-
 }

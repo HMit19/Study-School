@@ -16,3 +16,4 @@ H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi3\Tuan3\obj\Debug\Tuan3.exe
 H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi3\Tuan3\obj\Debug\Tuan3.pdb
 H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi3\Tuan3\obj\Debug\Tuan3.Form2.resources
 H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi3\Tuan3\obj\Debug\Tuan3.Form3.resources
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi3\Tuan3\obj\Debug\Tuan3.Form4.resources

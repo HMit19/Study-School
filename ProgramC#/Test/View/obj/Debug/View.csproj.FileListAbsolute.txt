@@ -1,0 +1,14 @@
+H:\StudySchool\ProgramC#\Test\View\bin\Debug\View.exe.config
+H:\StudySchool\ProgramC#\Test\View\bin\Debug\View.exe
+H:\StudySchool\ProgramC#\Test\View\bin\Debug\View.pdb
+H:\StudySchool\ProgramC#\Test\View\bin\Debug\FontAwesome.Sharp.dll
+H:\StudySchool\ProgramC#\Test\View\bin\Debug\Guna.UI2.dll
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.csproj.AssemblyReference.cache
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.csproj.SuggestedBindingRedirects.cache
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.LoginForm.resources
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.Properties.Resources.resources
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.csproj.GenerateResource.cache
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.csproj.CopyComplete
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.exe
+H:\StudySchool\ProgramC#\Test\View\obj\Debug\View.pdb

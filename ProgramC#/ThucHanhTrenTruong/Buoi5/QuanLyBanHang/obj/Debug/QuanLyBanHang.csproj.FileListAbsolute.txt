@@ -1,0 +1,12 @@
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.AssemblyReference.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.SuggestedBindingRedirects.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.CoreCompileInputs.cache
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.LoginForm.resources
+H:\StudySchool\ProgramC#\ThucHanhTrenTruong\Buoi5\QuanLyBanHang\obj\Debug\QuanLyBanHang.MatHangForm.resources
